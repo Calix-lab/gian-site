@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Gian Calixto — Web3 Advisor",
   description: "Tokenomics • Partnerships • Pitch Decks • Lead Gen (International)",
