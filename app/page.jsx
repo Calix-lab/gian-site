@@ -1,7 +1,7 @@
 "use client";
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { Rocket, BarChart3, Presentation, Share2, Mail, Calendar, ArrowRight, Linkedin, Send } from "lucide-react";
+import { Rocket, BarChart3, Presentation, Share2, Mail, Calendar, ArrowRight, Linkedin, Send, Twitter } from "lucide-react";
 
 // =============================
 // QUICK CONFIG — EDIT THESE
@@ -284,6 +284,7 @@ export default function Page() {
           <Button href={`mailto:${SITE.email}`} icon={Mail} variant="ghost">Email</Button>
           <Button href={SITE.linkedin} icon={Linkedin} variant="ghost">LinkedIn</Button>
           {SITE.telegram && <Button href={SITE.telegram} icon={Send} variant="ghost">Telegram</Button>}
+          {SITE.twitter && <Button href={SITE.twitter} icon={Twitter} variant="ghost">X (Twitter)</Button>}
         </div>
         <p className="mt-3 text-sm text-black/60">Replace the contact links in the config at the top of the file.</p>
       </Section>
