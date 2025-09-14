@@ -10,11 +10,11 @@ const SITE = {
   name: "Gian Calixto",
   role: "Web3 Advisor",
   tagline: "Tokenomics • Partnerships • Pitch Decks • Lead Gen (International)",
-  email: "iamgiancalixto@gmail.com", // TODO: replace with your email
-  telegram: "https://t.me/GianCalixto", // TODO: replace
+  email: "iamgiancalixto@gmail.com", 
+  telegram: "https://t.me/GianCalixto", 
   linkedin: "https://www.linkedin.com/in/giancalixto/",
-  twitter: "https://x.com/0xCalix", // optional
-  calendly: "https://calendly.com/iamgiancalixto/30min", // TODO: replace
+  twitter: "https://x.com/0xCalix", 
+  calendly: "https://calendly.com/iamgiancalixto/30min", 
   location: "Global • Remote",
 };
 
