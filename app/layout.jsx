@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="min-h-screen">
+      <body className="min-h-screen overflow-x-hidden">
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded-lg focus:bg-white/10 focus:px-3 focus:py-2">Skip to content</a>
         {children}
         <Script defer data-domain="gian-site.vercel.app" src="https://plausible.io/js/script.js" />
