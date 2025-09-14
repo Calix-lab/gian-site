@@ -185,7 +185,7 @@ export default function Page() {
               title="Partnerships Pipeline"
               context="Access to over 600+ Partner Network"
               actions={["Warm intros to desired partners", "Access to Events", "Fundraising Support"]}
-              outcomes={["90% intro rate", "200+ events in major conferences", "80% conversion rate from VC intros"]}
+              outcomes={["90% introduction success rate", "200+ events in major conferences", "80% conversion rate from VC intros"]}
             />
             <CaseStudy
               title="Tokenomics Optimization"
