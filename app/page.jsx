@@ -252,14 +252,14 @@ export default function Page() {
         id="about"
         eyebrow="About"
         title="International advisor with a practical network"
-        subtitle={`${SITE.name} helps founders connect with market makers, exchanges, VCs/angels, launchpads, and agencies—then turns those relationships into measurable traction.`}
+        subtitle={`${SITE.name} helps founders connect with market makers, exchanges, VCs/angels, launchpads, and agencies; then turns those relationships into measurable traction.`}
       >
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           <div className="rounded-2xl border border-black/10 bg-white p-4 shadow-sm md:col-span-2">
             <p className="text-black/80">
               I bridge product, growth, and capital: structuring listing & liquidity readiness (CEX/DEX), coordinating market‑maker RFPs,
               drafting DEX v3 liquidity blueprints, and running multi‑channel outreach with clear KPIs. I care about compliance and clean
-              execution—no manipulative trading. Dashboards track spreads, ±2% depth, quoting uptime, and partner conversions.
+              execution with no manipulative trading. Dashboards track spreads, ±2% depth, quoting uptime, and partner conversions.
             </p>
             <p className="mt-3 text-black/70">
               Engagements are fixed‑scope sprints or fractional advisory. Fully remote and global.
@@ -270,8 +270,8 @@ export default function Page() {
             <ul className="mt-2 space-y-2 text-sm text-black/70">
               <li>Location: {SITE.location}</li>
               <li>Focus: Tokenomics • Partnerships • Listings • Lead Gen</li>
-              <li>Channels: Email • LinkedIn • Telegram</li>
-              <li>Tools: HubSpot/Notion • Apollo/Clay • Instantly/Lemlist</li>
+              <li>Channels: Email • LinkedIn • X • Telegram</li>
+              <li>Tools: Airtable/HubSpot/Notion • Apollo/Clay • Instantly/Lemlist</li>
             </ul>
           </div>
         </div>
