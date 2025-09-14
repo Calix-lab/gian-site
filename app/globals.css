@@ -2,11 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-  @apply bg-white text-black;
+:root { color-scheme: dark; }
+
+html, body { @apply min-h-screen bg-[#0b0d12] text-white; }
+
+* {-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+
+/* Subtle star-grid background */
+body::before {
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+  background-image:
+    radial-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+    radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size:24px 24px,48px 48px;
+  background-position:0 0,12px 12px; opacity:.6;
 }
 
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* Glow orbs */
+.bg-orb { position:absolute; filter:blur(60px); opacity:.5; z-index:0; }
