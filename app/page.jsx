@@ -15,7 +15,7 @@ const SITE = {
   linkedin: "https://www.linkedin.com/in/giancalixto/",
   twitter: "https://x.com/0xCalix", 
   calendly: "https://calendly.com/iamgiancalixto/30min", 
-  location: "Global • Remote",
+  location: "Global • Remote • SEA Based",
 };
 
 // Reusable button
