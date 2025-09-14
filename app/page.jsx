@@ -137,10 +137,10 @@ export default function Page() {
             className="rounded-3xl border border-black/10 bg-white p-6 shadow-sm"
           >
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-2">
-              <Stat kpi="Lead Gen" v="[N–M] meetings/mo"/>
+              <Stat kpi="Lead Gen" v="8–12 meetings/mo"/>
               <Stat kpi="Listings" v="CEX + DEX v3"/>
               <Stat kpi="Spread target" v="≤ 0.6%"/>
-              <Stat kpi="Depth @±2%" v="$[XX]k"/>
+              <Stat kpi="Depth @±2%" v="$25k+"/>
             </div>
             <p className="mt-4 text-sm text-black/60">
               Replace placeholders with your metrics. Use ranges if NDAs apply.
