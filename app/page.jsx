@@ -52,13 +52,13 @@ function Section({ id, eyebrow, title, subtitle, children }) {
 }
 
 // Clean, centered “X” that won’t look like two slashes
-function IconX({ size = 18 }) {
+function IconX({ size = 20 }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true" focusable="false">
       <path
         d="M4 4 L20 20 M20 4 L4 20"
         stroke="currentColor"
-        strokeWidth="2.2"
+        strokeWidth="2.6"
         strokeLinecap="round"
       />
     </svg>
