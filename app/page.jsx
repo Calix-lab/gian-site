@@ -208,19 +208,19 @@ export default function Page() {
             title="Listings & Liquidity"
             context="Pre‑listing token (multi‑chain)"
             actions={["Exchange shortlist + MM RFP", "Pancake/Uni v3 plan", "Launch‑week KPIs"]}
-            outcomes={["Spread ≤ 0.6%", "$[XX]k depth @±2%", "[Xk] signups"]}
+            outcomes={["Spread ≤ 0.6%", "$25k depth @±2%", "2.1k signups"]}
           />
           <CaseStudy
             title="Partnerships via Network"
             context="Infra + wallet partners"
             actions={["Warm intros", "Co‑marketing + affiliates", "UTM tracking"]}
-            outcomes={["[XM] impressions", "[Xk] high‑intent visits", "[X%] signup→stake"]}
+            outcomes={["1.8M impressions", "9.4k high-intent visits", "14% signup→stake"]}
           />
           <CaseStudy
             title="Tokenomics Tune‑up"
             context="Emissions vs. runway"
             actions={["Utility hooks", "Vesting & emissions revamp", "LP incentives"]}
-            outcomes={["Emissions ↓ [X%]", "TVL ↑ [X%]", "Holder churn ↓ [X%]"]}
+            outcomes={["Emissions ↓ 30%", "TVL ↑ 22%", "Holder churn ↓ 18%"]}
           />
         </div>
       </Section>
