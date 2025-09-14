@@ -251,7 +251,7 @@ export default function Page() {
             <Button ariaLabel="Send email" href={`mailto:${SITE.email}`} icon={Mail} variant="ghost">Email</Button>
             <Button ariaLabel="Open LinkedIn" href={SITE.linkedin} icon={Linkedin} variant="ghost">LinkedIn</Button>
             {SITE.telegram && <Button ariaLabel="Open Telegram" href={SITE.telegram} icon={Send} variant="ghost">Telegram</Button>}
-            {SITE.twitter && <Button ariaLabel="Open X" href={SITE.twitter} icon={IconX} variant="ghost">X(formerly Twitter)</Button>}
+            {SITE.twitter && <Button ariaLabel="Open X" href={SITE.twitter} icon={IconX} variant="ghost">X (Formerly Twitter)</Button>}
           </div>
           <p className="mt-4 text-sm text-white/70">Or email me directly at <a className="underline" href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
         </Section>
