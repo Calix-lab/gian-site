@@ -143,7 +143,7 @@ export default function Page() {
               <Stat kpi="Depth @±2%" v="$25k+"/>
             </div>
             <p className="mt-4 text-sm text-black/60">
-              Replace placeholders with your metrics. Use ranges if NDAs apply.
+              Metrics are based on estimates and averages.
             </p>
           </motion.div>
         </div>
